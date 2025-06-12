@@ -10,6 +10,7 @@ header {
     padding: 3vh 1vw;
     margin: 0 auto;
     max-width: 1280px;
+    background-color: rgb(149, 170, 145);
 }
 
 .bottomcontainer input[type=text] {

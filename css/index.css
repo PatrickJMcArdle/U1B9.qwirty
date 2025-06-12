@@ -9,4 +9,13 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-} 
+}
+
+main {
+    display: flex;
+    flex: 1 1 auto;
+    gap: 2vh;
+    padding: 2vh 1vw;
+    overflow: hidden;
+    height: calc(100vh - 10vh);
+}

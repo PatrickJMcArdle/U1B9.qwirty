@@ -1,0 +1,15 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    min-width: 22ch;
+    gap: 0.5vh;
+}
+
+aside a:link {
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0.4rem 0.6rem;
+    background-color: rgb(46, 88, 46);
+}
