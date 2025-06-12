@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1.5vh 2vw;
+    flex-shrink: 0;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+    width: 100vw;
+}
+
+.nav1 input[type=text] {
+    flex-grow: 8;
+}
+
+.nav1 .brand {
+    flex-grow: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+    width: 100vw;
+}
+
+.nav2 {
+    display: flex;
+    gap: 1.5vw;
+}
+
+.nav3 {
+    display: flex;
+    gap: 1.5vw;
+}
