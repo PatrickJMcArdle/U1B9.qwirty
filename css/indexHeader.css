@@ -1,39 +1,55 @@
 header {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    padding: 1.5vh 2vw;
     flex-shrink: 0;
+    width: 100vw;
+    margin: 0 auto;
 }
 
-.nav1 {
+.bottomcontainer {
     display: flex;
     justify-content: space-between;
-    padding: 1vh 1vw;
-    width: 100vw;
+    padding: 3vh 1vw;
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
-.nav1 input[type=text] {
-    flex-grow: 8;
+.bottomcontainer input[type=text] {
+    flex-grow: 10;
 }
 
-.nav1 .brand {
+.bottomcontainer .brand {
     flex-grow: 1;
 }
 
-.navbar {
+.brand {
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(46, 88, 46);
+}
+
+.topcontainer {
     display: flex;
     justify-content: space-between;
     padding: 1vh 1vw;
-    width: 100vw;
+    margin: 0 auto;
+    max-width: 1280px;
+
+    background-color: rgb(46, 88, 46);
 }
 
-.nav2 {
+.nav2, .nav3 {
     display: flex;
-    gap: 1.5vw;
 }
 
-.nav3 {
-    display: flex;
-    gap: 1.5vw;
+.nav2 a:link, .nav3 a:link {
+    font-size: 2vh;
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    padding: 0.4em 0.8em;
 }
+
+.nav2 a:link:not(.help), .nav3 a:link:not(.help) {
+    border-right: 2px solid;
+}
+
