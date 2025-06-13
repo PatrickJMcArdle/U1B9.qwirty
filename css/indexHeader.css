@@ -50,6 +50,10 @@ header {
     padding: 0.4em 0.8em;
 }
 
+.nav2 a:hover, .nav3 a:hover {
+    text-decoration: underline;
+}
+
 .nav2 a:link:not(.help), .nav3 a:link:not(.help) {
     border-right: 2px solid;
 }
