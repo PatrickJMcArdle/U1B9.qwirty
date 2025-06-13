@@ -1,0 +1,16 @@
+.endfooter {
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem 0.5rem;
+    background-color: rgb(53, 66, 60);
+}
+
+.footerlinks {
+    display: flex;
+    gap: 2rem;
+}
+
+.footerlinks a {
+    color: rgb(235, 255, 240);
+    text-decoration: none;
+}
